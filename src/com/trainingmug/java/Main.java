@@ -42,6 +42,32 @@ public class Main {
 
         // initialize Employee objects data
 
+        emp.empId = 11111;
+        emp.name = "emp1";
+        emp.department = "development";
+        emp.basicSalary = 345345.34f;
+        emp.ta = 343.34f;
+        emp.da = 565.34f;
+        emp.hra = 1234.56f;
+        emp.gender = 'M';
+        emp.joiningYear = 2020;
+        emp.isRegular = true;
+
+        System.out.println("----------- After Initialization ------------");
+
+        System.out.println("Employee Id : " + emp.empId);
+        System.out.println("Employee Name : " + emp.name);
+        System.out.println("Employee Department : " + emp.department);
+        System.out.println("Employee Basic Salary : " +emp.basicSalary);
+        System.out.println("Employee Travelling Allowances :" + emp.ta);
+        System.out.println("Employee HRA : " + emp.hra);
+        System.out.println("Employee Direct Allowances : " + emp.da);
+        System.out.println("Employee Gender : " + emp.gender);
+        System.out.println("Employee Joining Year : " + emp.joiningYear);
+        System.out.println("Is Regular Employee ?" + emp.isRegular);
+
+        // initialize Employee objects data
+
         emp1.empId = 22222;
         emp1.name = "emp2";
         emp1.department = "production";
